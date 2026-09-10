@@ -29,6 +29,12 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/freefq/free/master/v2",
     "https://open.heleimail.workers.dev/",
     "https://www.ermao.net/sub/v2ray/ermao.net",
+    "https://bestcf.pages.dev/domain/all.txt",
+    "https://bestcf.pages.dev/domain/mini.txt",
+    "https://bestcf.pages.dev/domain/Domain-Asia.txt",
+    "https://bestcf.pages.dev/vps789/top10.txt",
+    "https://bestcf.pages.dev/vps789/top20.txt",
+    "https://bestcf.pages.dev/vps789/top50.txt",
 ]
 
 OUTPUT_DIR = "output"
