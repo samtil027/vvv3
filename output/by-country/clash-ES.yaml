@@ -6,18 +6,17 @@ log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - xiaohe
   type: vless
-  server: 104.18.32.252
-  port: 443
-  uuid: 6dd13cd4-e378-4742-bef1-d8ac54083626
+  server: 162.159.24.131
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: eb9a7750.69lover.site
   network: ws
   ws-opts:
-    path: /api/v2/4ecb1e0e26887759/stream
+    path: /?ed=2560security=tls
     headers:
-      Host: eb9a7750.69lover.site
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
