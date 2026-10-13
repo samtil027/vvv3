@@ -13,32 +13,18 @@ proxies:
   udp: true
 - name: 🇨🇭 CH 02 - xiaohe
   type: vless
-  server: 128.241.25.3
-  port: 30021
-  uuid: afec813e-a5c7-432d-be48-2803c30eea4e
+  server: 188.34.142.174
+  port: 444
+  uuid: da46ec1f-84ad-4470-866f-010b58357b19
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
   network: ws
   ws-opts:
     path: /@Marisa_kristi
     headers:
-      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
-- name: 🇨🇭 CH 03 - xiaohe
-  type: vless
-  server: 57.129.52.47
-  port: 52014
-  uuid: ecc4675b-1607-4699-8b20-23af97b671af
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -46,7 +32,6 @@ proxy-groups:
   - AUTO
   - 🇨🇭 CH 01 - xiaohe
   - 🇨🇭 CH 02 - xiaohe
-  - 🇨🇭 CH 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -54,6 +39,5 @@ proxy-groups:
   proxies:
   - 🇨🇭 CH 01 - xiaohe
   - 🇨🇭 CH 02 - xiaohe
-  - 🇨🇭 CH 03 - xiaohe
 rules:
 - MATCH,PROXIES
