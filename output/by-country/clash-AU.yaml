@@ -15,6 +15,46 @@ proxies:
   reality-opts:
     public-key: 2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38
   servername: apple.com
+  client-fingerprint: firefox
+- name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
+  type: vless
+  server: 212.81.47.99
+  port: 51106
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38
+  servername: apple.com
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
@@ -22,11 +62,17 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
 rules:
 - MATCH,PROXIES
