@@ -69,6 +69,18 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
 - name: 🇫🇷 法国 (France) 06 - xiaohe
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 07 - xiaohe
   type: vmess
   server: 145.239.55.210
   port: 80
@@ -94,6 +106,7 @@ proxy-groups:
   - 🇫🇷 法国 (France) 04 - xiaohe
   - 🇫🇷 法国 (France) 05 - xiaohe
   - 🇫🇷 法国 (France) 06 - xiaohe
+  - 🇫🇷 法国 (France) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -105,5 +118,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 04 - xiaohe
   - 🇫🇷 法国 (France) 05 - xiaohe
   - 🇫🇷 法国 (France) 06 - xiaohe
+  - 🇫🇷 法国 (France) 07 - xiaohe
 rules:
 - MATCH,PROXIES
